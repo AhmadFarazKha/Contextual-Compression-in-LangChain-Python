@@ -1,0 +1,2 @@
+# Contextual Compression in LangChain Python
+ Contextual compression in LangChain refers to techniques that try to reduce the amount of context passed to a language model while preserving the information crucial for accurate and relevant responses.  Large language models (LLMs) have context windows (limits on the amount of text they can process at once).  If your prompt plus the necessary context exceeds this window, you lose information, and the LLM's performance suffers.  Contextual compression helps you fit more relevant information within that window.
